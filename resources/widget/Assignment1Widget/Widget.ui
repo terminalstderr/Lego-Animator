@@ -14,20 +14,47 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
+   <item row="0" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>439</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1">
     <widget class="QWidget" name="controlsBox" native="true">
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="titleLabel">
         <property name="text">
-         <string>Assignment 1</string>
+         <string>Lego Man Controller</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="exampleBtn">
+       <widget class="QPushButton" name="makeLegoManBtn">
         <property name="text">
-         <string>Make a Cylinder</string>
+         <string>Make Lego Man</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="kickBtn">
+        <property name="text">
+         <string>Kick</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="raiseArmBtn">
+        <property name="text">
+         <string>Raise Arm</string>
         </property>
        </widget>
       </item>
@@ -53,19 +80,6 @@
       </item>
      </layout>
     </widget>
-   </item>
-   <item row="0" column="1">
-    <spacer name="horizontalSpacer">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>439</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>
