@@ -7,7 +7,7 @@ from PySide import QtGui
 from pyglass.windows.PyGlassWindow import PyGlassWindow
 
 from mayapy.views.home.MayaPyHomeWidget import MayaPyHomeWidget
-from mayapy.views.assignment1.Assignment1Widget import Assignment1Widget
+from mayapy.views.assignment1.LegoManWidget import LegoManWidget
 from mayapy.views.assignment2.Assignment2Widget import Assignment2Widget
 
 #___________________________________________________________________________________________________ MayaPyMainWindow
@@ -23,7 +23,7 @@ class MayaPyMainWindow(PyGlassWindow):
             self,
             widgets={
                 'home':MayaPyHomeWidget,
-                'assignment1':Assignment1Widget,
+                'assignment1':LegoManWidget,
                 'assignment2':Assignment2Widget },
             title='MayaPy',
             **kwargs )
